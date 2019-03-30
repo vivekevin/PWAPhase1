@@ -1,0 +1,43 @@
+{
+  "profile":{
+    "image":"images/Henessy.jpg",
+    "name":"Kevin",
+    "Desig":"Gamer",
+    "mobile":"9491210481",
+    "email":"vivekevin2@gmail.com"
+  },
+  "career":{
+    "info":"You Are not a gamer then die"
+  },
+  "education":
+  [
+    {
+    "sno":"1",
+    "institute":"mits",
+    "percentage":"85%",
+    "qualification":"B.tech"
+  },
+  {
+    "sno":"2",
+    "institute":"mits",
+    "percentage":"91%",
+    "qualification":"Intermediate"
+  },
+  {
+    "sno":"3",
+    "institute":"mits",
+    "percentage":"78%",
+    "qualification":"ssc"
+  }
+],
+"skills":[
+  {
+  "name":"<b>WebTechnologies</b>",
+  "info":["HTML","css","js"]
+},
+{
+  "name":"<b>Database</b>",
+  "info":["sql","firebase"]
+}
+]
+}

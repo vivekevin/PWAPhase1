@@ -1,0 +1,48 @@
+body{
+  background:#1D8348;
+}
+h1{
+  color: #F1C40F;
+  font-weight: 400;
+  font-style: oblique;
+  text-align: center;
+}
+.parent{
+  background:#34495E;
+  display: flex;
+  justify-content:space-around;
+  margin: 8%;
+  padding: 5%;
+  border: 2px solid #F7F9F9;
+  border-radius: 4%;
+}
+.A{
+  background:#EC7063;
+  width: 25%;
+  margin:2%;
+  text-align:center;
+  padding: 3%;
+  border: 2px solid #F7F9F9;
+  border-radius: 4%;
+}
+img{
+  width:80%;
+  height: 20%;
+}
+
+@media screen and (min-width:360px) and (max-width:767px){
+  .parent{
+    flex-wrap: wrap;
+  }
+  .A{
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .parent{
+    flex-wrap: wrap;
+  }
+  .A{
+    width:35%;
+  }
+}
